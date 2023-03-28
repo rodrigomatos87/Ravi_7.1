@@ -1,0 +1,286 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.resumosensor1 {position: relative; z-index: 0; border-radius: 2px 2px 2px 2px; background: #00c95c; margin-left: 2px; color: #FFFFFF; font-size: 14px; padding: 1px 5px 1px 5px; text-align: center; display: inline-block; -webkit-border-radius: 2px 2px 2px 2px; -moz-border-radius: 2px 2px 2px 2px; -ms-border-radius: 2px 2px 2px 2px; -o-border-radius: 2px 2px 2px 2px; }
+.resumosensor2 {position: relative; z-index: 0; border-radius: 2px 2px 2px 2px; background: #f59a19; margin-left: 2px; color: #FFFFFF; font-size: 14px; padding: 1px 5px 1px 5px; text-align: center; display: inline-block;}
+.resumosensor3 {position: relative; z-index: 0; border-radius: 2px 2px 2px 2px; background: #d23939; margin-left: 2px; color: #FFFFFF; font-size: 14px; padding: 1px 5px 1px 5px; text-align: center; display: inline-block;}
+.resumosensor4 {position: relative; z-index: 0; border-radius: 2px 2px 2px 2px; background: #a7a0a0; margin-left: 2px; color: #FFFFFF; font-size: 14px; padding: 1px 5px 1px 5px; text-align: center; display: inline-block;}
+.resumosensor5 {position: relative; z-index: 0; border-radius: 2px 2px 2px 2px; background: #6A6666; margin-left: 2px; color: #FFFFFF; font-size: 14px; padding: 1px 5px 1px 5px; text-align: center; display: inline-block;}
+.resumosensor6 {position: relative; z-index: 0; border-radius: 2px 2px 2px 2px; background: #6c93c4; margin-left: 2px; color: #FFFFFF; font-size: 14px; padding: 1px 5px 1px 5px; text-align: center; display: inline-block;}
+
+.resumosensor1:hover { position: relative; z-index: 3; -webkit-box-shadow: 0 0 20px 5px #ffffff; box-shadow: 0 0 20px 5px #ffffff; -moz-box-shadow: 0 0 20px 5px #ffffff; transition:all 0.3s ease; }
+.resumosensor2:hover { position: relative; z-index: 3; -webkit-box-shadow: 0 0 20px 5px #ffffff; box-shadow: 0 0 20px 5px #ffffff; -moz-box-shadow: 0 0 20px 5px #ffffff; transition:all 0.3s ease; }
+.resumosensor3:hover { position: relative; z-index: 3; -webkit-box-shadow: 0 0 20px 5px #ffffff; box-shadow: 0 0 20px 5px #ffffff; -moz-box-shadow: 0 0 20px 5px #ffffff; transition:all 0.3s ease; }
+.resumosensor4:hover { position: relative; z-index: 3; -webkit-box-shadow: 0 0 20px 5px #ffffff; box-shadow: 0 0 20px 5px #ffffff; -moz-box-shadow: 0 0 20px 5px #ffffff; transition:all 0.3s ease; }
+.resumosensor5:hover { position: relative; z-index: 3; -webkit-box-shadow: 0 0 20px 5px #ffffff; box-shadow: 0 0 20px 5px #ffffff; -moz-box-shadow: 0 0 20px 5px #ffffff; transition:all 0.3s ease; }
+.resumosensor6:hover { position: relative; z-index: 3; -webkit-box-shadow: 0 0 20px 5px #ffffff; box-shadow: 0 0 20px 5px #ffffff; -moz-box-shadow: 0 0 20px 5px #ffffff; transition:all 0.3s ease; }
+
+.input { width: 90%; font-size: 1.2em; padding: 5px; border: 2px solid #ddd; z-index: 10; position: relative; } /* coisa do alexandre, não sei onde usava */
+#div1 { top: 0; right: 0; bottom: 0; left: 0; position: fixed; z-index: 1; transition: all .5s; }
+#div2 { top: 0; right: 0; bottom: 0; left: 0; position: fixed; z-index: 2; transition: all .5s; }
+
+.rodapeFlutuante {
+  position: fixed;
+  background-color: rgba(255,255,255,0.9);
+  -webkit-box-shadow: 0 0 40px 5px #FFF; box-shadow: 0 0 40px 5px #FFF; -moz-box-shadow: 0 0 40px 5px #FFF; 
+  border-top: #FFF 3px solid;
+  right: 0;
+  left: 0;
+  z-index: 11;
+  bottom:0;
+  text-align: left;
+  display: none;
+}
+
+.btn-danger {
+  text-decoration: line-through;
+  color: #000000;
+  opacity:0.6; filter: alpha(opacity=60); -webkit-filter: alpha(opacity=60);
+  transition:all 0.3s ease;
+}
+.btn-danger:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+  opacity:1; filter: alpha(opacity=100); -webkit-filter: alpha(opacity=100);
+  transition:all 0.3s ease;
+}
+
+#campoConfig {max-width: 1126px; text-align: right; padding-bottom: 10px; float: right; }
+
+.Config { width: 20px; opacity:0.4; filter: alpha(opacity=40); -webkit-filter: alpha(opacity=40); display: inline-block; transition:all 0.3s ease;}
+.Config:hover {-webkit-transform: rotateZ(-30deg); -ms-transform: rotateZ(-30deg); transform: rotateZ(-30deg); opacity:1; filter: alpha(opacity=100); width: 20px; height: 20px; transition:all 0.3s ease; }
+
+.Config_index { width: 14px; height: 14px; opacity:0.4; filter: alpha(opacity=40); -webkit-filter: alpha(opacity=40); display: inline-block; transition:all 0.3s ease;}
+.Config_index:hover {-webkit-transform: rotateZ(-30deg); -ms-transform: rotateZ(-30deg); transform: rotateZ(-30deg); opacity:1; filter: alpha(opacity=100); transition:all 0.3s ease; }
+
+.btnLogs {cursor: pointer; border: unset; padding: 10px; color: #FFF; margin-right: 10px; background-color: #A8A8A8; font-size: 14px; text-decoration: none; -webkit-transition: all 300ms ease; transition: all 300ms ease; border-radius: 5px 5px 5px 5px; display: inline-block;}
+.btnLogs:hover {color: #FFF; background-color: #231D1D;}
+
+.terminal { margin-left: 8px; margin-top: 2px; padding: 1px 5px 1px 5px; background-color: #6A6666; color: snow; font-size: 12px; border-radius: 2px 2px 2px 2px; -webkit-border-radius: 2px 2px 2px 2px; -moz-border-radius: 2px 2px 2px 2px; -ms-border-radius: 2px 2px 2px 2px; -o-border-radius: 2px 2px 2px 2px; }
+.backup { padding: 1px 5px 1px 5px; background-color: #00c95c; color: snow; font-size: 12px; border-radius: 2px 2px 2px 2px; -webkit-border-radius: 2px 2px 2px 2px; -moz-border-radius: 2px 2px 2px 2px; -ms-border-radius: 2px 2px 2px 2px; -o-border-radius: 2px 2px 2px 2px; }
+
+.QuadroConfigOLT {width: 100%; max-width: 320px; height: 100px; background-color: #FFF; background: url("../img/pixel_ok.png") no-repeat top right; vertical-align:text-top; border-radius: 5px 5px 5px 5px; border: #EAEAEA 1px solid; border-top: #EAEAEA 5px solid; font-size: 14px; text-align: left; margin: 5px; margin-top: 15px; padding: 5px; transition:all 0.3s ease; display:inline-table;}
+.QuadroConfigOLT:hover { background-color: #f2fef6; background-image: unset; border: #00c95c 1px solid; border-top: #00c95c 5px solid; position: relative; z-index: 3; transform: scale(1.08); -webkit-transform: scale(1.08); -ms-transform: scale(1.08); -moz-transform: scale(1.08); -o-transform: scale(1.08); -webkit-box-shadow: 0 0 20px 5px #b3ffd5; box-shadow: 0 0 20px 5px #b3ffd5; -moz-box-shadow: 0 0 20px 5px #b3ffd5; transition:all 0.3s ease; }
+
+.QuadroConfigOLToff {width: 100%; max-width: 320px; height: 100px; background-color: #FFF; background: url("../img/pixel_alert.png") no-repeat top right; vertical-align:text-top; border-radius: 5px 5px 5px 5px; border: #EAEAEA 1px solid; border-top: #EAEAEA 5px solid; font-size: 14px; text-align: left; margin: 5px; margin-top: 15px; padding: 5px; transition:all 0.3s ease; display:inline-table;}
+.QuadroConfigOLToff:hover { background-color: #f2fef6; border: #00c95c 1px solid; border-top: #00c95c 5px solid; position: relative; z-index: 3; transform: scale(1.08); -webkit-transform: scale(1.08); -ms-transform: scale(1.08); -moz-transform: scale(1.08); -o-transform: scale(1.08); -webkit-box-shadow: 0 0 20px 5px #b3ffd5; box-shadow: 0 0 20px 5px #b3ffd5; -moz-box-shadow: 0 0 20px 5px #b3ffd5; transition:all 0.3s ease; }
+
+.QuadroConfigOLTnovo {width: 100%; max-width: 320px; height: 100px; background-color: #FFF; background: url("../img/pixel_novo.png") no-repeat top right; vertical-align:text-top; border-radius: 5px 5px 5px 5px; border: #EAEAEA 1px solid; border-top: #EAEAEA 5px solid; font-size: 14px; text-align: left; margin: 5px; margin-top: 15px; padding: 5px; transition:all 0.3s ease; display:inline-table;}
+.QuadroConfigOLTnovo:hover { background-color: #f2fef6; background-image: unset; border: #00c95c 1px solid; border-top: #00c95c 5px solid; position: relative; z-index: 3; transform: scale(1.08); -webkit-transform: scale(1.08); -ms-transform: scale(1.08); -moz-transform: scale(1.08); -o-transform: scale(1.08); -webkit-box-shadow: 0 0 20px 5px #b3ffd5; box-shadow: 0 0 20px 5px #b3ffd5; -moz-box-shadow: 0 0 20px 5px #b3ffd5; transition:all 0.3s ease; }
+
+.AuthONU_direita {width: 100%; max-width: 320px; height: 110px; background-color: #FFF; vertical-align:text-top; border-radius: 5px 5px 5px 5px; border: #EAEAEA 1px solid; border-top: #EAEAEA 5px solid; font-size: 14px; text-align: left; margin: 5px; margin-top: 15px; padding: 5px; transition:all 0.3s ease; display:inline-table;}
+.AuthONU_direita:hover { background-color: #f2fef6; background-image: unset; border: #00c95c 1px solid; border-top: #00c95c 5px solid; position: relative; z-index: 3; transform: scale(1.08); -webkit-transform: scale(1.08); -ms-transform: scale(1.08); -moz-transform: scale(1.08); -o-transform: scale(1.08); -webkit-box-shadow: 0 0 20px 5px #b3ffd5; box-shadow: 0 0 20px 5px #b3ffd5; -moz-box-shadow: 0 0 20px 5px #b3ffd5; transition:all 0.3s ease; }
+
+.QuadroTerminal {width: 282px; height: 100px; font-family: 'Oswald'; background-color: #282a35; background-image: url("../img/bg_terminal.png"); background-position: top left; background-repeat: no-repeat; background-size: contain; color: #FFF; vertical-align:text-top; border-radius: 5px 5px 5px 5px; border: #282a35 1px solid; font-size: 14px; text-align: left; margin: 5px; margin-top: 15px; padding: 6px; padding-left: 28px; transition:all 0.3s ease;}
+
+.tituloOLT {max-width: 250px; font-size: 22px; padding-left: 10px; white-space: nowrap; overflow: hidden !important; text-overflow: ellipsis; } 
+.dataOLT {font-size: 14px; padding-left: 10px; } 
+
+.buttonsOLT {width: 100%; bottom: -12px; text-align: right; position: relative; }
+.buttonAbreOLT { border-radius: 5px 5px 5px 5px; color: #000; background-color: #00c95c; padding: 5px; font-size: 14px; float: left; position: absolute; top: -16px; transition:all 0.6s ease; -webkit-transition:all 0.6s ease; -moz-transition:all 0.6s ease; -ms-transition:all 0.6s ease; -o-transition:all 0.6s ease; }
+.buttonAbreOLT:hover { color: #FFF; transform: scale(1.08); transition:all 0.6s ease; -webkit-transition:all 0.6s ease; -moz-transition:all 0.6s ease; -ms-transition:all 0.6s ease; -o-transition:all 0.6s ease; }
+
+.filtrardata {float: left; }
+
+.DivCongiInputL {width: 120px; height: 18px; border: solid 1px #d6cfcf; border-radius: 5px 5px 5px 5px; font-size: 14px; padding: 5px; margin: 1px; margin-right: 0px; transition:all 0.6s ease;}
+.DivCongiInputL:focus {width: 120px; border: solid 1px #00c95c; outline: none; transition:all 0.6s ease;}
+.DivCongiInputL:hover {width: 120px; border: solid 1px #00c95c; outline: none; transition:all 0.6s ease;}
+
+.imputPesqOLT {width: 40%; border: solid 2px #FFF; border-bottom: solid 2px #d6cfcf; font-size: 14px; border-radius: 5px 5px 0px 0px; padding: 10px; padding-left: 0px; outline: none; margin: 0px; transition:all 0.3s ease;}
+.imputPesqOLT:focus {border: solid 2px #00c95c; border-radius: 5px 5px 5px 5px; outline: none; padding-left: 10px; margin: 0px; transition:all 0.3s ease;}
+
+.searcholt {width: 99%; margin: 0 auto; margin-top: 25px; font-size: 14px; }
+
+.QuadroOLT {width: 100%; max-width: 320px; height: 75px; background-color: #FFF; text-decoration: none; vertical-align:text-top; border-radius: 5px 5px 5px 5px; border: #EAEAEA 1px solid; font-size: 14px; text-align: left; margin: 5px; margin-top: 15px; padding: 5px; transition:all 0.3s ease; display:inline-table; }
+.QuadroOLT:hover { background-color: #f2fef6; background-image: unset; border: #00c95c 1px solid; position: relative; z-index: 3; -webkit-box-shadow: 0 0 20px 5px #b3ffd5; box-shadow: 0 0 20px 5px #b3ffd5; -moz-box-shadow: 0 0 20px 5px #b3ffd5; transition:all 0.3s ease; }
+
+.exclui_condicao { width: 50px; float: right; opacity: 0; filter: alpha(opacity=0); -webkit-filter: alpha(opacity=0); transition: opacity 0.3s; border-radius: 0px 5px 0px 5px; padding: 3px; background-color: #d6cfcf; text-align: center; size: 14px; -webkit-border-radius: 0px 5px 0px 5px; -moz-border-radius: 0px 5px 0px 5px; -ms-border-radius: 0px 5px 0px 5px; -o-border-radius: 0px 5px 0px 5px; transition:all 0.3s ease; }
+.exclui_condicao:hover { color: #FFF; background-color: #d23939; }
+
+.coletor {width: 100%; max-width: 230px; height: 82px; background-color: #FFF; text-decoration: none; vertical-align:text-top; border-radius: 5px 5px 5px 5px; border: #EAEAEA 1px solid; font-size: 14px; text-align: left; margin: 5px; transition:all 0.3s ease; display:inline-table; }
+.coletor:hover { background-color: #f2fef6; background-image: unset; border: #00c95c 1px solid; position: relative; z-index: 3; -webkit-box-shadow: 0 0 20px 5px #b3ffd5; box-shadow: 0 0 20px 5px #b3ffd5; -moz-box-shadow: 0 0 20px 5px #b3ffd5; transition:all 0.3s ease; }
+
+#lista {
+  width: 100%;
+}
+
+#lista tr {
+  line-height: 30px; transition:all 0.3s ease;
+}
+
+#lista tr .imput_list {
+  outline: 0; border: none; padding: 5px; font-size: 14px; width: 80%; background-color: transparent !important; 
+}
+
+#lista tr:hover {
+  background-color: #00c95c;
+  color: #000; transition:all 0.3s ease;
+}
+
+#lista thead {
+  color: #000;
+  font-weight: bold;
+}
+
+#lista thead:hover {
+  color: #000;
+  font-weight: bold;
+}
+
+.regra_condicao {width: 70px; height: 21px; background-color: #FFF; text-decoration: none; vertical-align:text-top; border-radius: 5px 5px 5px 5px; border: #EAEAEA 1px solid; font-size: 14px; text-align: center; margin: 2px; padding-top: 6px; transition:all 0.3s ease; display:inline-table; }
+.regra_condicao:hover { background-color: #f2fef6; background-image: unset; border: #00c95c 1px solid; -webkit-box-shadow: 0 0 20px 5px #b3ffd5; box-shadow: 0 0 20px 5px #b3ffd5; -moz-box-shadow: 0 0 20px 5px #b3ffd5; transition:all 0.3s ease; }
+
+.img_codigo { width:auto; height: 15px; padding-left: 3px; border: 0px; transition:all 0.3s ease; }
+.img_codigo:hover { -webkit-transform: scale(1.1); -ms-transform: scale(1.1); transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); transition:all 0.3s ease;}
+
+.condicao { left: -1px; top: -1px; width: 100%; max-width: 152px; position: relative; display: inline-block; background-color: #f2fef6; text-decoration: none; vertical-align:text-top; border-radius: 5px 0px 5px 0px; border: #EAEAEA 1px solid; font-size: 14px; text-align: left; padding: 5px; transition:all 0.6s ease; -webkit-transition:all 0.6s ease; -moz-transition:all 0.6s ease; -ms-transition:all 0.6s ease; -o-transition:all 0.6s ease; -webkit-border-radius: 5px 0px 5px 0px; -moz-border-radius: 5px 0px 5px 0px; -ms-border-radius: 5px 0px 5px 0px; -o-border-radius: 5px 0px 5px 0px; }
+.coletor:hover .condicao { left: -5px; top: -5px; border-right: #00c95c 1px solid; border-bottom: #00c95c 1px solid; border-radius: 5px 5px 5px 5px; transition:all 0.6s ease; -webkit-transition:all 0.6s ease; -moz-transition:all 0.6s ease; -ms-transition:all 0.6s ease; -o-transition:all 0.6s ease; }
+.coletor:hover .exclui_condicao { margin: 2px; opacity: 1; filter: alpha(opacity=100); -webkit-filter: alpha(opacity=100); transition: opacity 0.3s; transition:all 0.3s ease; }
+
+.QuadroONUauth {width: 100%; max-width: 180px; height: 75px; background-color: #FFF; text-decoration: none; vertical-align:text-top; border-radius: 5px 5px 5px 5px; border: #EAEAEA 1px solid; font-size: 14px; text-align: left; margin: 5px; margin-top: 15px; padding: 5px; transition:all 0.3s ease; display:inline-table; }
+.QuadroONUauth:hover { background-color: #f2fef6; border: #00c95c 1px solid; position: relative; z-index: 3; -webkit-box-shadow: 0 0 20px 5px #b3ffd5; box-shadow: 0 0 20px 5px #b3ffd5; -moz-box-shadow: 0 0 20px 5px #b3ffd5; transition:all 0.3s ease; }
+
+.QuadroSonda {max-width: 400px; height: 75px; background-color: #FFF; text-decoration: none; vertical-align:text-top; border-radius: 5px 5px 5px 5px; border: #EAEAEA 1px solid; font-size: 14px; text-align: left; margin: 5px; margin-top: 15px; padding: 5px; transition:all 0.3s ease; display:inline-table; }
+.QuadroSonda:hover { background-color: #f2fef6; border: #00c95c 1px solid; border-top: #00c95c 5px solid; position: relative; z-index: 3; -webkit-box-shadow: 0 0 20px 5px #b3ffd5; box-shadow: 0 0 20px 5px #b3ffd5; -moz-box-shadow: 0 0 20px 5px #b3ffd5; transition:all 0.3s ease; }
+
+.imgMarcaOLT { width:100%; height:auto; }
+
+
+.ConOk {width: 150px; height: 60px; background: #00c95c; color: #FFF; text-align: left; padding-bottom: 3px; margin: 2px; border-radius: 6px 6px 6px 6px; transition:all 0.3s ease; display: inline-table; text-decoration: none;}
+.ConOk:hover {background: #00c95c url("../img/bg_concentradora.png") no-repeat left; background-size: auto 100%; transition:all 0.3s ease; -webkit-box-shadow: 0 0 40px 5px #FFF; box-shadow: 0 0 40px 5px #FFF; -moz-box-shadow: 0 0 40px 5px #FFF; }
+
+.Conseminfo {width: 150px; height: 60px; background: #a19fa0; color: #FFF; text-align: left; padding-bottom: 3px; margin: 2px; border-radius: 6px 6px 6px 6px; transition:all 0.3s ease; display: inline-table; text-decoration: none;}
+.Conseminfo:hover {background: #a19fa0 url("../img/bg_concentradora.png") no-repeat left; background-size: auto 100%; transition:all 0.3s ease; -webkit-box-shadow: 0 0 40px 5px #FFF; box-shadow: 0 0 40px 5px #FFF; -moz-box-shadow: 0 0 40px 5px #FFF; }
+
+.ConRuim {width: 150px; height: 60px; background: #d23939; color: #FFF; text-align: left; padding-bottom: 3px; margin: 2px; border-radius: 6px 6px 6px 6px; transition:all 0.3s ease; display: inline-table; text-decoration: none;}
+.ConRuim:hover {background: #d23939 url("../img/bg_concentradora.png") no-repeat left; background-size: auto 100%; transition:all 0.3s ease; -webkit-box-shadow: 0 0 40px 5px #FFF; box-shadow: 0 0 40px 5px #FFF; -moz-box-shadow: 0 0 40px 5px #FFF; }
+
+.ConAlert {width: 150px; height: 60px; background: #f59a19; color: #FFF; text-align: left; padding-bottom: 3px; margin: 2px; border-radius: 6px 6px 6px 6px; transition:all 0.3s ease; display: inline-table; text-decoration: none;}
+.ConAlert:hover {background: #f59a19 url("../img/bg_concentradora.png") no-repeat left; background-size: auto 100%; transition:all 0.3s ease; -webkit-box-shadow: 0 0 40px 5px #FFF; box-shadow: 0 0 40px 5px #FFF; -moz-box-shadow: 0 0 40px 5px #FFF; }
+
+.ConOff {width: 150px; height: 60px; background: #6A6666; color: #FFF; text-align: left; padding-bottom: 3px; margin: 2px; border-radius: 6px 6px 6px 6px; transition:all 0.3s ease; display: inline-table; text-decoration: none;}
+.ConOff:hover {background: #6A6666 url("../img/bg_concentradora.png") no-repeat left; background-size: auto 100%; transition:all 0.3s ease; -webkit-box-shadow: 0 0 40px 5px #FFF; box-shadow: 0 0 40px 5px #FFF; -moz-box-shadow: 0 0 40px 5px #FFF; }
+
+.ConNovo {width: 150px; height: 60px; background: #a7a0a0; color: #FFF; text-align: left; padding-bottom: 3px; margin: 2px; border-radius: 6px 6px 6px 6px; transition:all 0.3s ease; display: inline-table; text-decoration: none;}
+.ConNovo:hover {background: #a7a0a0 url("../img/bg_concentradora.png") no-repeat left; background-size: auto 100%; transition:all 0.3s ease; -webkit-box-shadow: 0 0 40px 5px #FFF; box-shadow: 0 0 40px 5px #FFF; -moz-box-shadow: 0 0 40px 5px #FFF; }
+
+.ConDisconect {width: 150px; height: 60px; background: #e08066; color: #FFF; text-align: left; padding-bottom: 3px; margin: 2px; border-radius: 6px 6px 6px 6px; transition:all 0.3s ease; display: inline-table; text-decoration: none;}
+.ConDisconect:hover {background: #e08066 url("../img/bg_concentradora.png") no-repeat left; background-size: auto 100%; transition:all 0.3s ease; -webkit-box-shadow: 0 0 40px 5px #FFF; box-shadow: 0 0 40px 5px #FFF; -moz-box-shadow: 0 0 40px 5px #FFF;}
+
+.resumoNomeONU { width: 116px; float: right; transition:all 0.3s ease; text-align: right; padding-top: 2px; padding-right: 4px; font-size: 14px; opacity:0.8; filter: alpha(opacity=80); -webkit-filter: alpha(opacity=80); white-space: nowrap; overflow: hidden !important; text-overflow: ellipsis; }
+.resumoNomeONU:hover { transition:all 0.3s ease; opacity: 1.0; filter: alpha(opacity=100); }
+
+.resumoautorizar { background-color: #FFF; padding-left: 4px; padding-right: 4px; position: relative; right: -5px; top: -5px; color: #6A6666; font-size: 14px; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; }
+
+.ConInfo {font-size: 14px; text-align: center; text-shadow: 0 0 1px #333;}
+.ConAguardando {font-size: 14px; text-align: center; text-shadow: 0 0 1px #333; padding: 4px;}
+.ConLogin {width: 130px; white-space: nowrap; overflow: hidden !important; text-overflow: ellipsis; text-align: right; padding-top: 2px; margin-left: 5px; opacity:0.9; filter: alpha(opacity=90);}
+.ConPing {text-align: left; padding-bottom: 5px; padding-left: 5px; opacity:0.9; filter: alpha(opacity=90);}
+.ConLogin:hover {transition:all 0.3s ease; opacity: 1.0; filter: alpha(opacity=100);}
+.ConPing:hover {transition:all 0.3s ease; opacity: 1.0; filter: alpha(opacity=100);}
+
+.divbut { width: inherit; padding: 8px; cursor: pointer; margin-bottom: 0px; background: #A8A8A8; color: #FFFFFF; border-radius: 5px 5px 0px 0px; font-size: 14px; text-decoration: none; display: inline-block; transition:all 0.3s ease;}
+.divbut:hover {background: #00c95c; transition:all 0.3s ease; }
+.divbut:focus {background: #00c95c; outline: none; transition:all 0.3s ease;}
+
+.resNomeOLT { max-width: 135px; font-size: 14px; white-space: nowrap; overflow: hidden !important; text-overflow: ellipsis;}
+
+.quadrosIndex { width: 200px; height: 140px; text-align: left; padding: 10px; margin: 5px; text-decoration: none; border: #EAEAEA 1px solid; border-top: #EAEAEA 5px solid; border-radius: 5px; transition:all 0.3s ease; display: inline-block; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; -webkit-transition:all 0.3s ease; -moz-transition:all 0.3s ease; -ms-transition:all 0.3s ease; -o-transition:all 0.3s ease; }
+.listOLTauth { width: 150px; text-align: left; margin: 5px; padding: 5px; border-radius: 4px; border: 1px dashed #A8A8A8; transition:all 0.3s ease; display: inline-block;}
+.listOLTauth:hover {background: #00c95c; border: 1px solid #00c95c; -webkit-transform: scale(1.06); -ms-transform: scale(1.06); transform: scale(1.06); transition:all 0.3s ease; -webkit-box-shadow: 0 0 40px 5px #FFF; box-shadow: 0 0 40px 5px #FFF; -moz-box-shadow: 0 0 40px 5px #FFF; }
+
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    margin: -75px 0 0 -75px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #00c95c;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    -webkit-animation: spin 2s linear infinite;
+}
+
+#loader-mini {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #00c95c;
+  width: 90px;
+  height: 90px;
+  animation: spin 2s linear infinite;
+  -webkit-animation: spin 2s linear infinite;
+}
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); -webkit-transform: rotate(0deg) ; -moz-transform: rotate(0deg) ; -ms-transform: rotate(0deg) ; -o-transform: rotate(0deg) ; }
+    100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) ; -moz-transform: rotate(360deg) ; -ms-transform: rotate(360deg) ; -o-transform: rotate(360deg) ; }
+  }
+  
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+
+  .animate-bottom {
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+  #myDiv {
+    display: none;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 767px) {
+    .buttonsOLT {width: 100%; position: relative; }
+    .filtrardata {float: none; width: 100%; text-align: left; margin-bottom: 15px; }
+    .DivCongiInputL {width: 80px; }
+    .QuadroConfigOLT { width: 100%; max-width: 97%; height: 100px; border-radius: 5px 5px 5px 5px; border: #EAEAEA 1px solid; border-top: #EAEAEA 5px solid; font-size: 14px; text-align: left; margin: 0px; margin-top: 15px; padding: 5px; display:block; -webkit-border-radius: 5px 5px 5px 5px; -moz-border-radius: 5px 5px 5px 5px; -ms-border-radius: 5px 5px 5px 5px; -o-border-radius: 5px 5px 5px 5px; }
+    .QuadroConfigOLToff { width: 100%; max-width: 97%; height: 100px; border-radius: 5px 5px 5px 5px; border: #EAEAEA 1px solid; border-top: #EAEAEA 5px solid; font-size: 14px; text-align: left; margin: 0px; margin-top: 15px; padding: 5px; display:block; -webkit-border-radius: 5px 5px 5px 5px; -moz-border-radius: 5px 5px 5px 5px; -ms-border-radius: 5px 5px 5px 5px; -o-border-radius: 5px 5px 5px 5px; }
+    .QuadroConfigOLTnovo { width: 100%; max-width: 97%; height: 100px; border-radius: 5px 5px 5px 5px; border: #EAEAEA 1px solid; border-top: #EAEAEA 5px solid; font-size: 14px; text-align: left; margin: 0px; margin-top: 15px; padding: 5px; display:block; -webkit-border-radius: 5px 5px 5px 5px; -moz-border-radius: 5px 5px 5px 5px; -ms-border-radius: 5px 5px 5px 5px; -o-border-radius: 5px 5px 5px 5px; }
+    .imputPesqOLT { width: 40%; border: solid 2px #FFF; border-bottom: solid 2px #d6cfcf; font-size: 14px; border-radius: 5px 5px 0px 0px; padding: 10px; padding-left: 0px; outline: none; margin: 0px; transition:all 0.3s ease; }
+    .imputPesqOLT:focus {border: solid 2px #00c95c; border-radius: 5px 5px 5px 5px; outline: none; padding-left: 10px; margin: 0px; transition:all 0.3s ease;}
+    .QuadroOLT {width: 97%; margin: 0px; margin-top: 15px; padding: 5px;}
+    /*.QuadroOLT:hover { background-color: #f2fef6; background-image: unset; border: #00c95c 1px solid; border-top: #00c95c 5px solid; position: relative; z-index: 3; transform: scale(1); -webkit-transform: scale(1); -ms-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); box-shadow: unset; transition:all 0.3s ease; }
+    .QuadroOLT:focus { background-color: #f2fef6; background-image: unset; border: #00c95c 1px solid; border-top: #00c95c 5px solid; position: relative; z-index: 3; transform: scale(1); -webkit-transform: scale(1); -ms-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); box-shadow: unset; transition:all 0.3s ease; } */
+    .imgMarcaOLT { width:auto; height:100%; }
+
+    .ConOk {display: inline-block;}
+    .Conseminfo {display: inline-block;}
+    .ConRuim {display: inline-block;}
+    .ConAlert {display: inline-block;}
+    .ConOff {display: inline-block;}
+    .ConNovo {display: inline-block;}
+    .ConDisconect {display: inline-block;}
+
+    .coletor {max-width: 80%;}
+  }
